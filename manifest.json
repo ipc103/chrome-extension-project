@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+
+  "name": "Katy Perry Sharks",
+  "description": "Loads videos of the Katy Parry Sharks with each new tab.",
+  "version": "1.1",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "public/index.html"
+    }
+}
