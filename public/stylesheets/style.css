@@ -1,26 +1,12 @@
 body {
-  background-color: #6E7E9C;
-  margin: 0;
-}
-
-.video {
-  width: 100%;
-}
-
-#hashtag {
-  font-size: 25px;
+  text-align: center;
   color: white;
-  position: absolute;
-  z-index: 10;
-  margin-right: 90%;
+  font-family: Futura;
+  font-size: 48px;
+  padding-top: 100px;
+  background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2015/05/paris-wallpaper-7.jpg") no-repeat center center;
+  background-size: cover;
 }
 
-#date{
-  font-size: 35px;
-  position: absolute;
-  z-index: 10;
-  float: right;
-  color: white;
-  margin-left: 50%;
-}
+
 
