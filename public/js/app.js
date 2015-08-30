@@ -14,10 +14,6 @@ var images = [
 $(document).ready(function(){
   var dateText = new Date;
   var countDown = Math.abs( (dateText.getTime() - date.getTime()) / oneDay);
-
-  // var string = countDown.toFixed(4)
-  // var color = parseFloat(string).toString(16).replace(".", "").substring(0, 6);
-  // var color = "#" + color
   $('#date').html(Math.round(countDown));
   $('body').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
 });
