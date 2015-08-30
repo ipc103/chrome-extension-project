@@ -1,6 +1,6 @@
 
 
-var date = new Date("2015/12/02");
+var date = new Date("2015/11/26");
 var oneDay = 24*60*60*1000; 
 
 var images = [
@@ -16,4 +16,5 @@ $(document).ready(function(){
   var countDown = Math.abs( (dateText.getTime() - date.getTime()) / oneDay);
   $('#date').html(Math.round(countDown));
   $('body').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
+  $('#content').fadeIn(1000);
 });

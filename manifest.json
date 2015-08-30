@@ -7,5 +7,6 @@
   "incognito": "split",
   "chrome_url_overrides": {
     "newtab": "public/index.html"
-    }
+    },
+  "permissions": "storage"
 }
